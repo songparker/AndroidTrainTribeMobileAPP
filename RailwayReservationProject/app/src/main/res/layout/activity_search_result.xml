@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="80px"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_search_results"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="@string/search_results"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <ListView
+        android:id="@+id/list_search_results"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:listSelector="@drawable/list_selector_background"
+        android:background="@color/white"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:clipToPadding="false"
+        android:scrollbarStyle="outsideOverlay"
+        android:fastScrollEnabled="true"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/return_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="@string/return_button" />
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="308dp"
+        android:layout_height="483dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/text_view_welcome_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:text="Welcome to Train Tribe"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/text_view_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_welcome_message"
+            android:layout_marginTop="16dp"
+            android:text=""
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <Button
+            android:id="@+id/button_edit_file"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_welcome_message"
+            android:layout_marginTop="32dp"
+            android:text="Edit Your File"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- <Button
+             android:id="@+id/button_manage_bookings"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/button_edit_file"
+             android:layout_marginTop="32dp"
+             android:text="Manage Your Bookings"
+             android:textSize="18sp"
+             android:textStyle="bold" />-->
+
+         <Button
+             android:id="@+id/button_plan_new_trip"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/button_manage_bookings"
+             android:layout_marginTop="32dp"
+             android:text="Planning New Trip"
+             android:textSize="18sp"
+             android:textStyle="bold" />
+
+         <Button
+             android:id="@+id/button_log_out"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/button_plan_new_trip"
+             android:layout_marginTop="32dp"
+             android:minHeight="48dp"
+             android:text="Log Out"
+             android:textSize="18sp"
+             android:textStyle="bold" />
+
+     </LinearLayout>
+
+
+ </androidx.constraintlayout.widget.ConstraintLayout>

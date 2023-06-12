@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Train Tribe</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_invalid_email">Please enter a valid email address</string>
+    <string name="error_password_mismatch">Passwords do not match</string>
+    <string name="error_invalid_password">"Checks that the password contains at least one lowercase letter, one uppercase letter, and one digit, and is at least eight characters long."</string>
+    <string name="register">Register</string>
+    <string name="user_id">User_ID</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_pass">Re-enter password</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="mobile">Mobile</string>
+    <string name="confirm">Confirm</string>
+    <string name="goback">Return</string>
+    <string name="register_activity_label">register_activity_label</string>
+    <string name="registration_successful">Registration  Succeed</string>
+    <string name="error_email_already_exists">Sorry, this email is already registered.</string>
+    <string name="error_invalid_credentials">Sorry, please check your login information and try again.</string>
+    <string name="search_results">Search results</string>
+    <string name="book_button">Book Ticket</string>
+    <string name="departure">Departure: %1$s %2$s</string>
+    <string name="arrival">Arrival: %1$s %2$s</string>
+    <string name="eco_availability">Economy Availability: %d</string>
+    <string name="busi_availability">Business Availability: %d</string>
+    <string name="return_button">Return Button</string>
+    <string name="EditAccount">Edit information</string>
+</resources>

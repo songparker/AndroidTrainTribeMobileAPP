@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ExtraText"><![CDATA[>
+
+    ]]>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.416">
+
+        <TextView
+            android:id="@+id/text_train_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Train Num: "
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/text_departure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Departure: "
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:id="@+id/text_arrival"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Arrival: "
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:id="@+id/text_departure_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Departure Date: "
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:id="@+id/text_departure_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Departure Time: "
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:id="@+id/text_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Duration: "
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:id="@+id/text_eco_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Economy Price: "
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:id="@+id/text_busi_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Business Price: "
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:id="@+id/eco_availability"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Economy Availability: "
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:id="@+id/busi_availability"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Business Availability: "
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/edit_eco_tickets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the number of economy tickets you want"
+            android:minHeight="48dp"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/edit_busi_tickets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the number of business tickets you want"
+            android:minHeight="48dp"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/button_confirm_booking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm Booking" />
+
+        <Button
+            android:id="@+id/button_return"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Return to Search" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
