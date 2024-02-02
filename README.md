@@ -149,21 +149,25 @@ reservations.
 
 
 **a. System Architecture:**
-<img src="https://github.com/songparker/AndroidTrainTribeMobileAPP/blob/master/documentation/images/SystemArchitecture.jpg?raw=true" alt="System Architecture" width="600">
+<img src="https://github.com/songparker/AndroidTrainTribeMobileAPP/blob/master/documentation/images/SystemArchitecture.jpg?raw=true" alt="System Architecture" width="800">
 
 **b. System Construction by now:**
+<img src="https://github.com/songparker/AndroidTrainTribeMobileAPP/blob/master/documentation/images/phoneScreen/overall1.jpg?raw=true" alt="Overall View 1" width="800">
 
+<img src="https://github.com/songparker/AndroidTrainTribeMobileAPP/blob/master/documentation/images/phoneScreen/searching.jpg?raw=true" alt="Searching Screen" width="600">
 
+<img src="https://github.com/songparker/AndroidTrainTribeMobileAPP/blob/master/documentation/images/phoneScreen/booking.jpg?raw=true" alt="Booking Screen" width="800"
 
-**Deliverable3（edit user information, check train schedule）**
+**Deliverable3（edit user information, check train schedule, etc）**
 
-```
-Deliverable
-```
+<img src="https://github.com/songparker/AndroidTrainTribeMobileAPP/blob/master/documentation/images/phoneScreen/register.jpg?raw=true" alt="Register Screen" width="800">
 
-```
-Deliverable
-```
+**Deliverable2（basic functions, like register）**
+
+<img src="https://github.com/songparker/AndroidTrainTribeMobileAPP/blob/master/documentation/images/phoneScreen/overall2.jpg?raw=true" alt="Overall View 2" width="800">
+
+**Deliverable1（basic functions, like login）**
+
 **I’ve also done the layout-landscape accordingly, for more details, please check my attached
 Android files to check the source codes.**
 
