@@ -149,6 +149,7 @@ reservations.
 
 
 **a. System Architecture:**
+<img src="https://github.com/songparker/AndroidTrainTribeMobileAPP/blob/master/documentation/images/SystemArchitecture.jpg?raw=true" alt="System Architecture" width="600">
 
 **b. System Construction by now:**
 
