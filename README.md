@@ -50,7 +50,7 @@ Threats:
 The Train Ticket Booking App is feasible as it solves a common problem faced by travelers and
 provides a convenient solution. The app is technically feasible as the required technologies and
 resources are readily available. The app is financially feasible as revenue can be generated
-through commission on ticket reservation.
+through commission on ticket reservations.
 
 **e. Project Management:**
 
@@ -85,13 +85,15 @@ the creation of a data flow diagram.
 **d. Modeling Documents:**
 
 - Class/ Object Diagram:
-- Use Case Diagram:
+<img src="https://github.com/songparker/AndroidTrainTribeMobileAPP/blob/master/documentation/images/diagrams/Class_diagram.jpg?raw=true" alt="Class Diagram" width="800">
 
+- Use Case Diagram:
+<img src="https://github.com/songparker/AndroidTrainTribeMobileAPP/blob/master/documentation/images/diagrams/State_diagram.jpg?raw=true" alt="State Diagram" width="800">
 
 - State Diagram:
+<img src="https://github.com/songparker/AndroidTrainTribeMobileAPP/blob/master/documentation/images/diagrams/Use_case_diagram.jpg?raw=true" alt="Use Case Diagram" width="800">
 
-
-- Data Dictionaries: All data attributes name are very straight-forward.
+- Data Dictionaries: All data attribute names are very straightforward.
 
 # 1.3 System Design
 
