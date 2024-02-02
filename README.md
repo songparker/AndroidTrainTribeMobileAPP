@@ -154,9 +154,9 @@ reservations.
 **b. System Construction by now:**
 <img src="https://github.com/songparker/AndroidTrainTribeMobileAPP/blob/master/documentation/images/phoneScreen/overall1.jpg?raw=true" alt="Overall View 1" width="800">
 
-<img src="https://github.com/songparker/AndroidTrainTribeMobileAPP/blob/master/documentation/images/phoneScreen/searching.jpg?raw=true" alt="Searching Screen" width="600">
+<img src="https://github.com/songparker/AndroidTrainTribeMobileAPP/blob/master/documentation/images/phoneScreen/searching.jpg?raw=true" alt="Searching Screen" width="800">
 
-<img src="https://github.com/songparker/AndroidTrainTribeMobileAPP/blob/master/documentation/images/phoneScreen/booking.jpg?raw=true" alt="Booking Screen" width="800"
+<img src="https://github.com/songparker/AndroidTrainTribeMobileAPP/blob/master/documentation/images/phoneScreen/booking.jpg?raw=true" alt="Booking Screen" width="800">
 
 **Deliverable3（edit user information, check train schedule, etc）**
 
@@ -205,33 +205,51 @@ This file is more focused on what I have done for Deliverable3.
 
 **1. Edit User information**
 
+<img src="https://github.com/songparker/AndroidTrainTribeMobileAPP/blob/master/documentation/images/phoneScreen/editAcount.jpg?raw=true" alt="Edit Account Screen" width="600">
+
 ```
 “Edit Your File”, “Confirm”, ”Return”
 ```
+
+<img src="https://github.com/songparker/AndroidTrainTribeMobileAPP/blob/master/documentation/images/database/beforeEditUser.png?raw=true" alt="Database Before Edit User" width="600">
+
 ```
 Before editing user info
 ```
+
+<img src="https://github.com/songparker/AndroidTrainTribeMobileAPP/blob/master/documentation/images/database/afterEditUser.png?raw=true" alt="Database After Edit User" width="600">
+
 ```
 After editing user info
 ```
 
 **2. Check train schedule**
 
+<img src="https://github.com/songparker/AndroidTrainTribeMobileAPP/blob/master/documentation/images/phoneScreen/searching.jpg?raw=true" alt="Searching Screen" width="800">
+
 ```
 “Search Button”, “Schedule List” Click, “Confirm Booking”
 ```
 **3. Book train ticket**
 
+<img src="https://github.com/songparker/AndroidTrainTribeMobileAPP/blob/master/documentation/images/phoneScreen/booking.jpg?raw=true" alt="Booking Screen" width="800">
 
 ```
 There are some conditions for the ticket number input, and the ticket availability would
 be updated after the order has been confirmed; the user will get a notification about the
 order confirmation and order information.
+
+<img src="https://github.com/songparker/AndroidTrainTribeMobileAPP/blob/master/documentation/images/database/ticketTable.png?raw=true" alt="Ticket Table" width="600">
+
 ```
 ```
 Order table would be generated accordingly as well.
 ```
 **4. Other tables sample data**
+
+<img src="https://github.com/songparker/AndroidTrainTribeMobileAPP/blob/master/documentation/images/database/trainTable.png?raw=true" alt="Train Table" width="600">
+
+<img src="https://github.com/songparker/AndroidTrainTribeMobileAPP/blob/master/documentation/images/database/scheduleTable.png?raw=true" alt="Schedule Table" width="600">
 
 ```
 Train Table
