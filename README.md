@@ -119,8 +119,8 @@ maintain.
 The app will provide visual output to users in the form of train schedules and ticket bookings.
 
 ```
-i. Exception Reports: The app will provide notifications for exceptions such as ticket
-soldout.
+i. Exception Reports: The app will provide notifications for exceptions such as tickets
+sold out.
 ii. Summary Reports: The app will provide a summary of the user's travel itinerary.
 ```
 **d. User Interface Design:**
@@ -164,7 +164,7 @@ Deliverable
 Deliverable
 ```
 **I’ve also done the layout-landscape accordingly, for more details, please check my attached
-android files to check the source codes.**
+Android files to check the source codes.**
 
 # 1.5. System Testing
 
